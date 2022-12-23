@@ -77,6 +77,7 @@ function M.install(packages)
 
     ctx.spawn.gem {
         "install",
+        "--platform=ruby",
         "--no-user-install",
         "--no-format-executable",
         "--install-dir=.",
